@@ -132,7 +132,7 @@ h1
 }
 .restaurantCard
 {
-    margin-bottom: 5px;
+    padding-bottom: 5px;
     text-decoration: none;
     color: black;
     display: flex;
@@ -162,7 +162,8 @@ h1
     color: #19AE58;
     padding: 5px 10px 5px 10px;
     font-weight: bold;
-
+    top: 5%;
+    right: 5%;
 }
 .restaurantCaption h3
 {
