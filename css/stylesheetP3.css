@@ -120,7 +120,7 @@ h1
     text-align: center;
     font-size: 10px;
     font-weight: bold;
-    transform: translateX(-60px);
+    transform: translateX(-55px);
 }
 .instructionsIcon
 {
@@ -135,6 +135,7 @@ h1
 .instructionsText
 {
     font-weight: bold;
+    width: 180px;
 }
 .restaurants
 {
