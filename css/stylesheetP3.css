@@ -1,0 +1,189 @@
+@font-face 
+{
+	font-family: Roboto-Thin
+	src: url("../fonts/roboto/Roboto-Thin.ttf");
+}
+
+@font-face 
+{
+	font-family: Shrikhand-Regular
+	src: url("../fonts/shrikhand/Shrikhand-Regular.otf");
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Roboto-Thin', sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid #A6ACAF;
+}
+.location
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgrey;
+    padding: 20px 0 20px 0;
+}
+form
+{
+    display: flex;
+    justify-content: center;
+}
+.locationIcon
+{
+    padding-right: 10px;
+}
+::placeholder
+{
+    color: black;
+}
+input[type="text"]
+{
+    padding: 0;
+    border: none;
+    background-color: lightgrey;
+}
+.intro
+{
+    background-color: #F2F3F4;
+    padding: 30px 0 30px 0;
+}
+h1
+{
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom:15px;
+    font-family: 'Roboto-Mediun', sans-serif;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.intro > p
+{
+    margin: 0;
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.exploreBtn
+{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FF79DA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    box-shadow: 0px 10px 10px #C0C0C0;
+}
+.instructions
+{
+    margin-bottom: 50px;
+}
+.instructions h2
+{
+    padding: 30px 0 0 20px;
+}
+.instructionsTab
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F2F3F4;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px #C0C0C0;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+.instructionsTab:hover
+{
+    background-color: #EBDEF0;
+}
+.instructionsIcon
+{
+    color: gray;
+    padding-right: 20px;
+}
+.instructionsTab:hover .instructionsIcon
+{
+    color: #9356DC;
+}
+.instructionsText
+{
+    font-weight: bold;
+}
+.restaurants
+{
+    background-color: #F2F3F4;
+}
+.restaurants h2
+{
+    padding: 30px 0 0 20px;
+}
+.restaurantCard
+{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.restaurantPic
+{
+    background-color: white;
+    width: 320px;
+    border-radius:20px;
+    box-shadow: 0px 10px 10px #C0C0C0;
+}
+.restaurantPic img
+{
+
+    width: 320px;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.restaurantCaption h3
+{
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+.restaurantText
+{
+    margin: 0;
+    padding: 0 0 10px 10px;
+}
+footer
+{
+    background-color: #424949;
+    color: white;
+}
+.footerLogo
+{
+    color: white;
+    font-family: 'shrikhand';
+    padding: 20px;
+}
+.footerText
+{
+    display: flex;
+    padding: 0 0 5px 20px;
+}
+.footer1
+{
+    padding-left: 5px;
+}
+.footerIcon
+{
+    width: 25px;
+}
