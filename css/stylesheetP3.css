@@ -144,6 +144,7 @@ h1
     width: 320px;
     border-radius:20px;
     box-shadow: 0px 10px 10px #C0C0C0;
+    position: relative;
 }
 .restaurantPic img
 {
@@ -152,6 +153,16 @@ h1
     height: 150px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
+}
+.newTag
+{
+    position: absolute;
+    background-color: #99E2D0;
+    border-radius: 2px;
+    color: #19AE58;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+
 }
 .restaurantCaption h3
 {
@@ -162,6 +173,23 @@ h1
 {
     margin: 0;
     padding: 0 0 10px 10px;
+}
+.restaurantCaption
+{
+    width: 80%;
+}
+.captionText
+{
+    display: flex;
+    flex-direction: row;
+}
+.heartIcon
+{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 19px 0 20px 0;
 }
 footer
 {
