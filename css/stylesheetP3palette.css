@@ -51,11 +51,12 @@ section
 {
     background-color: #F2F3F4;
     width: 100%;
+    padding-bottom: 40px;
 }
 .title
 {
     display: flex;
-    padding: 30px 0 30px 10px;
+    padding: 30px 0 30px 0px;
     border-radius: 20px 20px 0 0;
     position: absolute;
     background-color: #F2F3F4;
@@ -68,6 +69,7 @@ section
     width: 80%;
     margin: 0;
     font-family: 'shrikhand';
+    padding-left: 10px;
 }
 .heartIcon
 {
@@ -110,10 +112,12 @@ h2 span
 .menuText h3
 {
     margin: 0;
+    font-size: 15px;
 }
 .menuText p
 {
     margin: 0;
+    font-size: 15px;
 }
 .menuPrice
 {
@@ -122,11 +126,37 @@ h2 span
     width: 20%;
     justify-content: center;
     padding: 12px 0 13px 0;
+    font-size: 15px;
+}
+.starters
+{
+    padding-bottom: 30px;
+}
+.mainCourses
+{
+    padding-bottom: 30px;
+}
+.desserts
+{
+    padding-bottom: 30px;
+}
+.orderBtn
+{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FF79DA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    box-shadow: 0px 10px 10px #C0C0C0;
 }
 footer
 {
     background-color: #424949;
     color: white;
+    padding-bottom: 30px;
 }
 .footerLogo
 {
