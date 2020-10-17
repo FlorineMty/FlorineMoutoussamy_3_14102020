@@ -1,0 +1,112 @@
+@font-face 
+{
+	font-family: Roboto-Thin
+	src: url("../fonts/roboto/Roboto-Thin.ttf");
+}
+
+@font-face 
+{
+	font-family: Shrikhand-Regular
+	src: url("../fonts/shrikhand/Shrikhand-Regular.otf");
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Roboto-Thin', sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+.arrowIcon
+{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    padding: 9px 0 9px 0;
+}
+.logo
+{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+.picture
+{
+    position: relative;
+}
+.picture img
+{
+    width: 100%;
+    object-fit: cover;
+}
+main
+{
+    width: 100%;
+}
+section
+{
+    background-color: white;
+    width: 100%;
+}
+.title
+{
+    display: flex;
+    padding: 30px 0 30px 10px;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    background-color: white;
+    top: 43%;
+    width: 100%;
+}
+.title h1
+{
+    display: flex;
+    width: 80%;
+    margin: 0;
+    font-family: 'shrikhand';
+}
+.heartIcon
+{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    font-size: 25px;
+}
+h2
+{
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 10px;
+}
+.starters h2
+{
+    padding-top: 50px;
+}
+footer
+{
+    background-color: #424949;
+    color: white;
+}
+.footerLogo
+{
+    color: white;
+    font-family: 'shrikhand';
+    padding: 20px;
+}
+.footerText
+{
+    display: flex;
+    padding: 0 0 5px 20px;
+}
+.footer1
+{
+    padding-left: 5px;
+}
+.footerIcon
+{
+    width: 25px;
+}
