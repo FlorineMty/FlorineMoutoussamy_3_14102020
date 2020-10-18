@@ -73,16 +73,20 @@ h1
 }
 .exploreBtn
 {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.linear-gradient
+{
+    background: linear-gradient(to bottom right,#FF79DA, #9356DC);
     padding: 10px;
     border-radius: 20px;
-    background-color: #FF79DA;
-    color: white;
     display: flex;
     justify-content: center;
     margin-right: 20%;
     margin-left: 20%;
     box-shadow: 0px 10px 10px #C0C0C0;
-    text-decoration: none;
 }
 .instructions
 {
