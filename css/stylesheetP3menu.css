@@ -27,6 +27,8 @@ header
     display: flex;
     justify-content: center;
     padding: 9px 0 9px 0;
+    text-decoration: none;
+    color: black;
 }
 .logo
 {
