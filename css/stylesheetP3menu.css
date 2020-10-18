@@ -144,10 +144,15 @@ h2 span
 }
 .orderBtn
 {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.linear-gradient
+{
+    background: linear-gradient(to bottom right,#FF79DA, #9356DC);
     padding: 10px;
     border-radius: 20px;
-    background-color: #FF79DA;
-    color: white;
     display: flex;
     justify-content: center;
     margin-right: 20%;
