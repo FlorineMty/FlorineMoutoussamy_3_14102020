@@ -116,6 +116,7 @@ h2 span
 {
     margin: 0;
     font-size: 15px;
+    font-family: 'Roboto-Regular';
 }
 .menuText p
 {
@@ -130,6 +131,7 @@ h2 span
     justify-content: center;
     padding: 12px 0 13px 0;
     font-size: 15px;
+    font-family: 'Roboto-Regular';
 }
 .starters
 {
@@ -148,6 +150,7 @@ h2 span
     color: white;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Roboto-Regular';
 }
 .linear-gradient
 {

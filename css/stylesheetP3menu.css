@@ -80,6 +80,10 @@ section
     width: 20%;
     font-size: 25px;
 }
+.heartIcon i:hover
+{
+    background: linear-gradient(to bottom right,#FF79DA, #9356DC);
+}
 h2
 {
     text-transform: uppercase;
@@ -115,6 +119,7 @@ h2 span
 {
     margin: 0;
     font-size: 15px;
+    font-family: 'Roboto-Regular';
 }
 .menuText p
 {
@@ -129,6 +134,7 @@ h2 span
     justify-content: center;
     padding: 12px 0 13px 0;
     font-size: 15px;
+    font-family: 'Roboto-Regular';
 }
 .starters
 {
@@ -147,9 +153,7 @@ h2 span
     color: white;
     font-weight: bold;
     text-decoration: none;
-}
-.linear-gradient
-{
+    font-family: 'Roboto-Regular';
     background: linear-gradient(to bottom right,#FF79DA, #9356DC);
     padding: 10px;
     border-radius: 20px;
