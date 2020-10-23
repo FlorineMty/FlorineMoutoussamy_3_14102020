@@ -38,7 +38,9 @@ header
 }
 .picture
 {
-    position: relative;
+    position: absolute;
+    z-index: -1;
+    top: 10%;
 }
 .picture img
 {
@@ -54,16 +56,17 @@ section
     background-color: #F2F3F4;
     width: 100%;
     padding-bottom: 40px;
+    z-index: 1;
+    margin-top: 50%;
+    border-radius: 20px 20px 0 0;
 }
 .title
 {
     display: flex;
     padding: 30px 0 30px 0px;
-    border-radius: 20px 20px 0 0;
-    position: absolute;
     background-color: #F2F3F4;
-    top: 43%;
     width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 .title h1
 {
@@ -95,10 +98,6 @@ h2
     width: 35px;
     margin-left: 10px;
 }
-.starters h2
-{
-    padding-top: 50px;
-}
 .menuTab
 {
     background-color: white;
@@ -118,6 +117,7 @@ h2
 {
     margin: 0;
     font-size: 15px;
+    padding-bottom: 5px;
     font-family: 'Roboto-Regular';
 }
 .menuText p
@@ -130,10 +130,11 @@ h2
     font-weight: bold;
     display: flex;
     width: 20%;
+    padding-bottom: 10px;
     justify-content: center;
-    padding: 12px 0 13px 0;
     font-size: 15px;
     font-family: 'Roboto-Regular';
+    align-self: flex-end;
 }
 .starters
 {

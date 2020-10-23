@@ -41,20 +41,18 @@ form
     display: flex;
     justify-content: center;
 }
-.locationIcon
-{
-    padding-right: 10px;
-}
 ::placeholder
 {
     color: black;
     font-family: 'Roboto-Regular';
+    font-size: 15px;
 }
 input[type="text"]
 {
     padding: 0;
     border: none;
     background-color: lightgrey;
+    text-align: center;
 }
 .intro
 {
@@ -69,8 +67,8 @@ h1
     font-size: 25px;
     padding-bottom:15px;
     font-family: 'Roboto-Regular', sans-serif;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 .intro > p
 {
@@ -196,7 +194,7 @@ h2
 .restaurantCaption h3
 {
     margin: 0;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 5px 10px;
     font-family: 'Roboto-Regular';
 }
 .restaurantText
@@ -241,6 +239,7 @@ footer
 {
     display: flex;
     padding: 0 0 5px 20px;
+    font-family: 'Roboto-Regular';
 }
 .footerText a
 {
