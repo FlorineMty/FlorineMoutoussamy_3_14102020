@@ -81,20 +81,25 @@ h1
 .exploreBtn
 {
     color: white;
-    font-weight: bold;
+    font-family: 'Roboto-Regular';
     text-decoration: none;
     background: linear-gradient(to bottom right,#FF79DA, #9356DC);
-    padding: 10px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 40px;
     display: flex;
     justify-content: center;
     margin-right: 20%;
     margin-left: 20%;
     box-shadow: 0px 10px 10px #C0C0C0;
 }
+.exploreBtn:hover
+{
+    filter: brightness(-10%);
+}
 .instructions
 {
     margin-bottom: 50px;
+    font-family: 'Roboto-Regular';
 }
 h2
 {
@@ -132,12 +137,11 @@ h2
     text-align: center;
     font-size: 10px;
     font-weight: bold;
-    transform: translateX(-55px);
+    transform: translateX(-65px);
 }
 .instructionsIcon
 {
     color: gray;
-    padding-right: 20px;
     width: 30px;
 }
 .instructionsTab:hover .instructionsIcon
@@ -187,6 +191,7 @@ h2
     font-weight: bold;
     top: 5%;
     right: 5%;
+    font-family: 'Roboto-Regular';
 }
 .restaurantCaption h3
 {
