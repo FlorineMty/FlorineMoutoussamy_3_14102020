@@ -15,6 +15,37 @@ body
     margin: 0;
     font-family: 'Roboto-Thin', sans-serif;
 }
+/*
+.loadingPage
+{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: white;
+    transition: 3s;
+    position: absolute ;
+    display: flex;
+}
+.loader 
+{
+    display: flex;
+    align-self: center;
+    border-left:15px solid lightgrey;
+    border-top: 15px solid#9356DC;
+    border-right: 15px solid #FF79DA;
+    border-bottom: 15px solid #99E2D0;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+    border-radius: 50%;
+    margin: 33%;
+}
+@keyframes spin 
+{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+*/
 header
 {
     display: flex;
@@ -29,6 +60,17 @@ header
     padding: 9px 0 9px 0;
     text-decoration: none;
     color: black;
+}
+.arrowIcon:active
+{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: white;
+    transition: 3s;
+    position: absolute ;
+    display: flex;
+    overflow: hidden;
 }
 .logo
 {
@@ -106,6 +148,46 @@ h2
     margin: 10px;
     display: flex;
 }
+.menuTab:hover p
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 85%;
+}
+.menuTab:hover .menuPrice
+{
+    animation: move 0.5s ease both;
+    margin-right: 20%;
+}
+@keyframes move
+{
+from {
+    margin-right: 0%;
+    }
+to {
+    margin-right: 20%;
+    }
+}
+.menuTab:hover .check
+{
+    width: 100px;
+    height: 61px;
+    display: flex;
+    align-self: center;
+    border-radius: 0 20px 20px 0;
+    background-color: #99e2d0;
+    animation: slideInRIght 0.5s;
+}
+@keyframes slideInRight
+{
+from {
+    margin-left: 110%;
+    }
+to {
+    margin-left: 90%;
+    }
+}
 .menuText
 {
     display: flex;
@@ -136,9 +218,62 @@ h2
     font-family: 'Roboto-Regular';
     align-self: flex-end;
 }
+.check
+{
+    display: none;
+}
+.check i
+{
+    color: #99e2d0;
+    background-color: white;
+    padding: 3px;
+    position: absolute;
+    border-radius: 50%;
+    margin: 20px;
+}
+.menuTab:hover .check i
+{
+    animation: rotate 0.5s;
+}
+@keyframes rotate
+{
+from {
+    transform: rotate(0deg);
+    }
+to {
+    transform: rotate(360deg);
+    }
+}
 .menuStructure
 {
     padding-bottom: 30px;
+}
+.menu .menuStructure
+{
+animation: fadeIn 1s ease-in both;
+}
+.menu .menuStructure:nth-child(2)
+{
+    animation-delay: 1s;
+}
+.menu .menuStructure:nth-child(3)
+{
+    animation-delay: 2s;
+}
+.menu .menuStructure:nth-child(4)
+{
+    animation-delay: 3s;
+}
+@keyframes fadeIn 
+{
+from {
+	opacity: 0;
+	transform: translate3d(0, -20%, 0);
+	}
+to {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+	}
 }
 .orderBtn
 {
