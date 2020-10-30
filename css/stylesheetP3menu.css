@@ -143,10 +143,10 @@ to {
 @keyframes slideInRight
 {
 0% {
-    margin-left: 110%;
+    transform: translateX(0%);
     }
 100% {
-    margin-left: 90%;
+    transform: translateX(-100%);
     }
 }
 .menuText
