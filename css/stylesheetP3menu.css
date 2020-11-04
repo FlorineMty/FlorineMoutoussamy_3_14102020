@@ -3,7 +3,11 @@
 	font-family: Roboto-Thin;
 	src: url("../fonts/roboto/Roboto-Thin.ttf");
 }
-
+@font-face 
+{
+	font-family: Roboto-Regular;
+	src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
 @font-face 
 {
 	font-family: Shrikhand-Regular;
@@ -73,7 +77,7 @@ section
     display: flex;
     width: 80%;
     margin: 0;
-    font-family: 'shrikhand';
+    font-family: 'Shrikhand-Regular';
     padding-left: 10px;
 }
 .heartIcon
@@ -182,7 +186,7 @@ from {
     transform: rotate(0deg);
     }
 to {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
     }
 }
 .menuStructure
@@ -245,7 +249,7 @@ footer
 .footerLogo
 {
     color: white;
-    font-family: 'shrikhand';
+    font-family: 'Shrikhand-Regular';
     padding: 20px;
 }
 .footerText
