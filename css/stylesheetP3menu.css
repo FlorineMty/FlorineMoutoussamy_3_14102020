@@ -305,3 +305,30 @@ footer
 {
     width: 25px;
 }
+@media only screen and (min-width: 768px) 
+{
+    .orderBtn
+    {
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+    .menuArea
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .menuTab:hover .menuPrice
+    {
+        transform: translateX(-40px);
+        transition: 0.5s;
+    }
+    .picture img
+    {
+        height: 500px;
+    }
+    .menu
+    {
+        margin-top: 400px;
+    }
+}
