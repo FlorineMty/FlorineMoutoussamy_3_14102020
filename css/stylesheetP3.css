@@ -336,31 +336,31 @@ footer
 @media only screen and (min-width: 768px) 
 {
     .exploreBtn
-{
-    margin-right: 30%;
-    margin-left: 30%;
-}
+    {
+        margin-right: 30%;
+        margin-left: 30%;
+    }
     .instructionsMenu
-{
-    display: flex;
-    flex-direction: row;
-}
+    {
+        display: flex;
+        flex-direction: row;
+    }
     .restaurantsDisplay
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 .restaurantPic
-{
-    width: 500px;
-}
+    {
+        width: 500px;
+    }
 .restaurantPic img
-{
+    {
 
-    width: 500px;
-    height: 235px;
-}
+        width: 500px;
+        height: 235px;
+    }
 
 }
