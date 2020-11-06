@@ -90,7 +90,7 @@ section
 .heartAnim1
 {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index:1;
@@ -101,7 +101,7 @@ section
 .heartAnim2
 {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index:2;
