@@ -291,9 +291,43 @@ h2
 {
     opacity:1;
     background: -webkit-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
+    background: -moz-linear-gradient(to right,rgb(255, 121, 218), rgb(147, 86, 220));
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
     -webkit-text-stroke: 2px white;
+    -moz-text-stoke: 2px white;
+    animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn 
+{
+0% {
+    opacity: 0;
+    }
+20% {
+    opacity: 0.4;
+    }
+60% {
+    opacity: 0.8;
+    }
+100% {
+    opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn 
+{
+0% {
+	opacity: 0;
+    }
+20% {
+    opacity: 0.4;
+    }
+60% {
+    opacity: 0.8;
+    }
+100% {
+	opacity: 1;
+	}
 }
 .heartAnim2:hover .heartAnim1
 {

@@ -115,10 +115,13 @@ section
 .heartAnim2:hover 
 {
     opacity:1;
-    background: linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
+    background: -webkit-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
+    background: -moz-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    color: transparent;
     -webkit-text-stroke: 2px #F2F3F4;
+    -moz-text-stoke: 2px #F2F3F4;
 }
 .heartAnim2:hover .heartAnim1
 {
