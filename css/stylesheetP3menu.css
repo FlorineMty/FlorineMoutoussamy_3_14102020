@@ -317,7 +317,12 @@ footer
     {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin: 2%;
+    }
+    .menuTab
+    {
+        width: 400px;
     }
     .menuTab:hover .menuPrice
     {
