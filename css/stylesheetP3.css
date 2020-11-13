@@ -267,9 +267,8 @@ h2
 .heartAnim1
 {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
     z-index:1;
     cursor: pointer;
     color: black;
@@ -278,9 +277,8 @@ h2
 .heartAnim2
 {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
     z-index:2;
     cursor: pointer;
     opacity: 0;
@@ -291,7 +289,7 @@ h2
 {
     opacity:1;
     background: -webkit-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
-    background: -moz-linear-gradient(to right,rgb(255, 121, 218), rgb(147, 86, 220));
+    background: -moz-linear-gradient(rgb(255, 121, 218), rgb(147, 86, 220));
     -webkit-background-clip: text;
     -moz-background-clip: text;
     color: transparent;
